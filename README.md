@@ -1,3 +1,3 @@
 # my-portfolio
 
-Developing a portfolio website for reference use using React and Django Stack.
+Developing a portfolio website for reference using React and Django Stack.
