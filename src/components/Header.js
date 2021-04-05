@@ -11,9 +11,7 @@ const Header = () => (
       </a>
       <h1>
         <strong>I am Shaker </strong>, a motivated <br />
-        Software Engineer
-        <br />
-        trying build a better future by <br />
+        Software Engineer <br /> trying build a better future by <br />
         solving real-world problems.
       </h1>
     </div>
