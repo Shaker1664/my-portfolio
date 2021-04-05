@@ -280,7 +280,7 @@ const HomeIndex = () => {
             Need anything built, want to work together or simply want to have a
             chat?
             <br />
-            Drop me an e-mail at <strong>shakerkamal@ut-dhaka.edu</strong> or
+            Drop me an e-mail at <strong>shakerkamal@iut-dhaka.edu</strong> or
             simply fill out the form below and I will reply to you soon!
           </p>
           <div className="row">
