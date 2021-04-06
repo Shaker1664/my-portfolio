@@ -9,7 +9,7 @@ const HomeIndex = () => {
   if (state.succeeded) {
     return <div className="msg">Thank you for contacting!</div>
   }
-  const siteTitle = 'shaker-ibna-kamal'
+  const siteTitle = 'Md Shaker Ibna Kamal'
   const siteDescription = 'A portfolio of Md Shaker Ibna Kamal'
 
   const EducationSVG = () => (
