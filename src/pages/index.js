@@ -135,14 +135,12 @@ const HomeIndex = () => {
             <strong>sales tech</strong>, <strong> B2B </strong>
             applications. Experienced in the development and maintenance of
             <strong> API-based systems </strong>. Skilled in building web
-            applications, SPAs, and server-side applications on the{' '}
-            <strong>ASP.NET Core</strong>,<strong> React</strong> and{' '}
+            applications, SPAs, and server-side applications on the{' '} <strong>C#</strong> {' '}
+            <strong>ASP.NET Core</strong>,<strong> Angular</strong> and{' '}
             <strong>MSSQL </strong>
             stack. Experienced with understanding and developing business
             requirements of clients based on the problem based scenario.
-            Passionate about software architecture, distributed systems,
-            blockchain technologies, and design patterns. Interested in building
-            significant products to solve real-world problems.
+            Passionate about software architecture, distributed systems, and design patterns.
           </p>
         </section>
 
@@ -153,6 +151,24 @@ const HomeIndex = () => {
               PROFESSIONAL EXPERIENCE
             </h2>
           </header>
+          <ProfessionalExp
+            company="W4Solutions"
+            date="FEB 2019 - PRESENT"
+            position="Software Engineer"
+          >
+            <ul>
+              <li>
+                Developed RESTful APIs using ASP.NET Core Framework, developed
+                dynamic pricing engine
+              </li>
+              <li>
+                Designed business-driven data model, used MSSQL as SQL database
+              </li>
+              <li>
+                Containerized the application with docker for CI/CD pipeline
+              </li>
+            </ul>
+          </ProfessionalExp>
           <ProfessionalExp
             company="W4 Solutions"
             date="FEB 2019 - PRESENT"
@@ -171,18 +187,6 @@ const HomeIndex = () => {
               </li>
             </ul>
           </ProfessionalExp>
-          <ProfessionalExp
-            company="Celltron Electro Manufacturing Service"
-            date="NOV 2017 - DEC 2017"
-            position="Intern"
-          >
-            <ul>
-              <li>
-                Learned Web Scraping using JavaScript and the basics of frontend
-                development
-              </li>
-            </ul>
-          </ProfessionalExp>
         </section>
 
         <section id="three">
@@ -193,14 +197,14 @@ const HomeIndex = () => {
             </h2>
           </header>
           <EducationalExp
+            name="Technische Universität Chemnitz"
+            degree="Masters of Science in Automotive Software Engineering"
+            date="Oct 2021 - Present"
+          ></EducationalExp>
+          <EducationalExp
             name="Islamic University of Technology"
             degree="Bachelor of Science in Computer Science and Engineering"
             date="JAN 2015 - NOV 2018"
-          ></EducationalExp>
-          <EducationalExp
-            name="Rangpur Cadet College"
-            degree="Higher Secondary School Certificate"
-            date="JUN 2012 - AUG 2014"
           ></EducationalExp>
         </section>
 
@@ -213,13 +217,22 @@ const HomeIndex = () => {
           </header>
           <ul className="tech-list" style={{ columns: 2 }}>
             <li>C#</li>
+            <li>ASP.NET Core</li>
             <li>Javascript</li>
             <li>Python</li>
+            <li>Java</li>
             <li>HTML</li>
             <li>CSS</li>
-            <li>ASP.NET Core</li>
-            <li>React</li>
+            <li>Angular</li>
             <li>Docker</li>
+            <li>Kubernetes</li>
+            <li>AzureSQL</li>
+            <li>SQL Server</li>
+            <li>MongoDB</li>
+            <li>RabbitMQ</li>
+            <li>SignalR</li>
+            <li>Github Actions</li>
+            <li>Azure DevOps</li>
           </ul>
         </section>
 
@@ -233,42 +246,40 @@ const HomeIndex = () => {
 
           <div className="wrapper">
             <div className="column">
-              <h4>E-Shop</h4>
-              <h5>React, Node, Mongo</h5>
+              <h4>SportsStore</h4>
+              <h5>Dotnet Core MVC, Razor Pages</h5>
               <ul>
-                <li>An E-Commerce WebSite</li>
+                <li>An E-Commerce application</li>
                 <li>
-                  Simple implemention of Customer, Product relationship and
-                  management
+                  Simple implemention of Product, Category, Cart, and Order Processing/Management 
                 </li>
-                <li>Integrated payment gateway using PayPal API</li>
-                <li>Hosted the database using MongoAtlas</li>
+                <li>Admin Panel for creating resources and processing orders</li>
+                <li>Orders are stored in cookie for seamless integration</li>
               </ul>
               <a
-                href="https://github.com/Shaker1664/e-shop"
+                href="https://github.com/shakerkamal/SportsSln"
                 target="_blank"
                 style={{ textDecoration: 'underline' }}
               >
-                https://github.com/Shaker1664/e-shop
+                https://github.com/shakerkamal/SportsSln
               </a>
             </div>
             <div className="column">
-              <h4>BasicProject</h4>
-              <h5>ASP.NET Core MVC, MSSQL, Docker</h5>
+              <h4>Company Employee API</h4>
+              <h5>ASP.NET Core, MSSQL, Docker</h5>
               <ul>
                 <li>An Employee Management System</li>
                 <li>
-                  Features like, Salary Management, Tax Management are
-                  integrated
+                Company and Employee Management: Comprehensive functionality for managing company and employee data.
                 </li>
-                <li>Employee creation, deletion management</li>
+                <li>Token-Based Authentication: Secure access through token-based authentication.</li>
               </ul>
               <a
-                href="https://github.com/Shaker1664/BasicProject"
+                href="https://github.com/shakerkamal/CompanyEmployee"
                 target="_blank"
                 style={{ textDecoration: 'underline' }}
               >
-                https://github.com/Shaker1664/BasicProject
+                https://github.com/shakerkamal/CompanyEmployee
               </a>
             </div>
           </div>
@@ -280,8 +291,8 @@ const HomeIndex = () => {
             Need anything built, want to work together or simply want to have a
             chat?
             <br />
-            Drop me an e-mail at <strong>shakerkamal@iut-dhaka.edu</strong> or
-            simply fill out the form below and I will reply to you soon!
+            Drop me an e-mail at <strong>shakerkamal@outlook.com</strong> or
+            simply fill out the form below and We will be in touch!
           </p>
           <div className="row">
             <div className="12u 12u$(small)">
@@ -328,28 +339,6 @@ const HomeIndex = () => {
                 </ul>
               </form>
             </div>
-            {/* <div className="12u 12u$(small)">
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1234 Somewhere Rd. Nashville, TN 00000, United States
-                </li>
-                <li>
-                  <h3 className="icon fa-phone-square">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">hello@untitled.tld</a>
-                </li>
-              </ul>
-            </div> */}
           </div>
         </section>
       </div>

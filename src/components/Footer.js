@@ -36,7 +36,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://github.com/Shaker1664"
+              href="https://github.com/shakerkamal"
               target="_blank"
               className="icon fa-github"
             >
